@@ -299,7 +299,7 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
 .guide-panel strong{color:var(--accent);}
 
 /* 온보딩 투어 */
-.tour-overlay{position:fixed;inset:0;z-index:9000;pointer-events:all;}
+.tour-overlay{position:fixed;inset:0;z-index:9000;pointer-events:none;}
 .tour-bg{position:absolute;inset:0;background:rgba(0,0,0,.5);}
 .tour-box{position:absolute;z-index:9010;background:var(--card);border:1px solid var(--b2);border-radius:12px;padding:18px 20px 14px;max-width:340px;box-shadow:0 8px 40px rgba(0,0,0,.2);font-family:var(--sans);}
 .tour-step-ind{font-size:10px;color:var(--t3);font-family:var(--mono);margin-bottom:8px;}
@@ -1234,7 +1234,7 @@ function openModal(id){
     const bg2=isProfit?'rgba(217,102,74,.07)':'rgba(42,95,168,.07)';
     pnlBlock=`<div style="background:${bg2};border:1px solid ${border};border-radius:10px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;">
       <span style="font-size:13px;color:var(--t2);font-family:var(--mono);">현재 평가손익</span>
-      <span style="font-size:16px;font-weight:700;font-family:var(--mono);color:${pnlColor2};white-space:nowrap;">${sign}${pnlKrw}만원 <span style="font-size:12px;opacity:.75;">(${sign}$${Math.abs(p.current_pnl).toLocaleString()})</span></span>
+      <span style="font-size:16px;font-weight:700;font-family:var(--mono);color:${color};white-space:nowrap;">${sign}${pnlKrw}만원 <span style="font-size:12px;opacity:.75;">(${sign}$${Math.abs(p.current_pnl).toLocaleString()})</span></span>
     </div>`;
   } else {
     pnlBlock=`<div style="background:rgba(0,0,0,.03);border:1px solid var(--b1);border-radius:10px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;">
@@ -1419,6 +1419,7 @@ function renderHistMetrics(){
 }
 function renderTimeline(){
   const wrap=document.getElementById('timelineDots');
+  if(!wrap)return;
   wrap.innerHTML=DATA.map(d=>{
     const cls=d.pnl>0?'win':d.pnl<0?'loss':'zero';
     return `<div class="tdot ${cls}" onmouseenter="showDotTip(${d.n},${d.pnl})" onmouseleave="hideDotTip()"></div>`;
@@ -2102,10 +2103,6 @@ async function loadData(){
     document.getElementById('headerSub').textContent=`${today} 기준 · ${ac}개 포지션 공유 중`;
     document.getElementById('headerMeta').textContent=`업데이트: ${meta.last_updated||'—'}`;
     renderCards(allPos);
-    // 첫 방문 시 온보딩 투어
-    if(!localStorage.getItem('jikt_tour_done')){
-      setTimeout(startTour,800);
-    }
   }catch(e){
     document.getElementById('posGrid').innerHTML='<div style="padding:40px;text-align:center;color:var(--red);font-size:12px;font-family:var(--mono)">positions.json을 불러오지 못했습니다.</div>';
   }
