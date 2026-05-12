@@ -47,7 +47,7 @@
       ],
       "expected_return_pct": 9.4,
       "monthly_return_pct": 17.6,
-      "current_pnl": 0,
+      "current_pnl": null,
       "memo": "만기소멸 수익 확정 ($170)",
       "chart_data": {
         "dates": [
@@ -172,8 +172,7 @@
           "2026/04/13",
           "2026/04/14",
           "2026/04/15",
-          "2026/04/16",
-          "2026/05/11"
+          "2026/04/16"
         ],
         "closes": [
           57.75,
@@ -213,7 +212,7 @@
           57.9,
           58.07,
           57.32,
-          57,
+          57.0,
           56.68,
           55.26,
           55.85,
@@ -246,7 +245,7 @@
           62.29,
           64.18,
           63.93,
-          61,
+          61.0,
           62.15,
           63.97,
           62.44,
@@ -297,7 +296,6 @@
           92.95,
           91.74,
           88.62,
-          86.45,
           86.45
         ],
         "strike_lines": [
@@ -317,10 +315,7 @@
         "entry_date": "2026-03-31"
       },
       "entry_price": 96,
-      "strategy_num": 143,
-      "leg_current_prices": [
-        null
-      ]
+      "strategy_num": 143
     },
     {
       "id": "p1b",
@@ -334,7 +329,7 @@
       "underlying_en": "Crude Oil",
       "expiry_month": "6월물",
       "expiry_date": "2026-05-14",
-      "current_price": 92.66,
+      "current_price": 97.7,
       "legs": [
         {
           "type": "call_sell",
@@ -383,7 +378,7 @@
       "expected_return_pct": 7.23,
       "expected_return_max_pct": 113.6,
       "monthly_return_pct": 4.78,
-      "current_pnl": 774,
+      "current_pnl": 764,
       "memo": "",
       "chart_data": {
         "dates": [
@@ -553,7 +548,7 @@
           57.9,
           58.07,
           57.32,
-          57,
+          57.0,
           56.68,
           55.26,
           55.85,
@@ -586,7 +581,7 @@
           62.29,
           64.18,
           63.93,
-          61,
+          61.0,
           62.15,
           63.97,
           62.44,
@@ -642,7 +637,7 @@
           101.62,
           95.66,
           92.66,
-          92.66
+          97.7
         ],
         "strike_lines": [
           {
@@ -673,12 +668,7 @@
         "entry_date": "2026-03-31"
       },
       "entry_price": 93.16,
-      "strategy_num": 144,
-      "leg_current_prices": [
-        0.01,
-        0.04,
-        0.08
-      ]
+      "strategy_num": 144
     },
     {
       "id": "p2",
@@ -692,7 +682,7 @@
       "underlying_en": "Natural Gas",
       "expiry_month": "6월물",
       "expiry_date": "2026-05-26",
-      "current_price": 2.79,
+      "current_price": 2.798,
       "legs": [
         {
           "type": "call_sell",
@@ -992,7 +982,7 @@
           2.84,
           2.71,
           2.79,
-          2.79
+          2.798
         ],
         "strike_lines": [
           {
@@ -1017,11 +1007,7 @@
         "entry_date": "2026-04-06"
       },
       "entry_price": 2.811,
-      "strategy_num": 145,
-      "leg_current_prices": [
-        0.001,
-        0.002
-      ]
+      "strategy_num": 145
     },
     {
       "id": "p3",
@@ -1035,7 +1021,7 @@
       "underlying_en": "Gold",
       "expiry_month": "7월물",
       "expiry_date": "2026-06-25",
-      "current_price": 4810,
+      "current_price": 4709.5,
       "legs": [
         {
           "type": "call_sell",
@@ -1204,7 +1190,7 @@
           4138.8,
           4100.6,
           4121.1,
-          4139,
+          4139.0,
           4118.1,
           4137.9,
           4082.2,
@@ -1218,7 +1204,7 @@
           4218.6,
           4199.5,
           4190.5,
-          4208,
+          4208.0,
           4183.6,
           4201.5,
           4216.3,
@@ -1227,8 +1213,8 @@
           4344.5,
           4367.1,
           4313.2,
-          4325,
-          4334,
+          4325.0,
+          4334.0,
           4335.1,
           4310.4,
           4330.4,
@@ -1251,20 +1237,20 @@
           4549.7,
           4595.5,
           4561.1,
-          4560,
+          4560.0,
           4601.1,
           4716.7,
           4700.8,
-          4738,
+          4738.0,
           4725.8,
           4697.5,
           4870.3,
-          4944,
+          4944.0,
           5021.9,
           5092.9,
           5201.8,
           5197.5,
-          5421,
+          5421.0,
           5436.5,
           4816.6,
           4720.3,
@@ -1279,7 +1265,7 @@
           5121.3,
           4978.7,
           5083.7,
-          5072,
+          5072.0,
           5157.7,
           5304.5,
           5254.6,
@@ -1287,7 +1273,7 @@
           5272.8,
           5327.1,
           5391.8,
-          5201,
+          5201.0,
           5212.2,
           5155.7,
           5237.1,
@@ -1321,9 +1307,9 @@
           4755.7,
           4725.4,
           4661.4,
-          4800,
-          4810,
-          4810
+          4800.0,
+          4810.0,
+          4709.5
         ],
         "strike_lines": [
           {
@@ -1342,10 +1328,7 @@
         "entry_date": "2026-04-09"
       },
       "entry_price": 4855.5,
-      "strategy_num": 146,
-      "leg_current_prices": [
-        0.8
-      ]
+      "strategy_num": 146
     },
     {
       "id": "p4",
@@ -1359,7 +1342,7 @@
       "underlying_en": "Crude Oil",
       "expiry_month": "6월물",
       "expiry_date": "2026-05-26",
-      "current_price": 92.66,
+      "current_price": 97.7,
       "legs": [
         {
           "type": "call_sell",
@@ -1400,7 +1383,7 @@
       ],
       "expected_return_pct": 30.13,
       "monthly_return_pct": 25.83,
-      "current_pnl": 720,
+      "current_pnl": 740,
       "memo": "",
       "chart_data": {
         "dates": [
@@ -1575,7 +1558,7 @@
           57.9,
           58.07,
           57.32,
-          57,
+          57.0,
           56.68,
           55.26,
           55.85,
@@ -1608,7 +1591,7 @@
           62.29,
           64.18,
           63.93,
-          61,
+          61.0,
           62.15,
           63.97,
           62.44,
@@ -1669,7 +1652,7 @@
           101.62,
           95.66,
           92.66,
-          92.66
+          97.7
         ],
         "strike_lines": [
           {
@@ -1694,11 +1677,7 @@
         "entry_date": "2026-04-21"
       },
       "entry_price": 89.46,
-      "strategy_num": 147,
-      "leg_current_prices": [
-        0.03,
-        0.02
-      ]
+      "strategy_num": 147
     },
     {
       "id": "p5",
@@ -1712,7 +1691,7 @@
       "underlying_en": "Crude Oil",
       "expiry_month": "8월물",
       "expiry_date": "2026-07-16",
-      "current_price": 85.82,
+      "current_price": 90.29,
       "legs": [
         {
           "type": "call_sell",
@@ -1729,7 +1708,7 @@
           "label": "만기 시 $253 미만",
           "profit": 690,
           "profit_krw": 1035000,
-          "return_pct": 41,
+          "return_pct": 41.0,
           "type": "win"
         },
         {
@@ -1739,9 +1718,9 @@
           "type": "loss"
         }
       ],
-      "expected_return_pct": 41,
+      "expected_return_pct": 41.0,
       "monthly_return_pct": 15.52,
-      "current_pnl": 210,
+      "current_pnl": 90,
       "memo": "",
       "chart_data": {
         "dates": [
@@ -1954,7 +1933,7 @@
           55.24,
           57.06,
           55.53,
-          56,
+          56.0,
           56.89,
           56.51,
           57.13,
@@ -2012,7 +1991,7 @@
           91.74,
           85.78,
           85.82,
-          85.82
+          90.29
         ],
         "strike_lines": [
           {
@@ -2031,10 +2010,7 @@
         "entry_date": "2026-04-27"
       },
       "entry_price": 86.75,
-      "strategy_num": 148,
-      "leg_current_prices": [
-        0.16
-      ]
+      "strategy_num": 148
     },
     {
       "id": "p6",
@@ -2048,7 +2024,7 @@
       "underlying_en": "Crude Oil",
       "expiry_month": "7월물",
       "expiry_date": "2026-06-16",
-      "current_price": 89.27,
+      "current_price": 93.97,
       "legs": [
         {
           "type": "call_sell",
@@ -2077,7 +2053,7 @@
       ],
       "expected_return_pct": 25.6,
       "monthly_return_pct": 17.9,
-      "current_pnl": 220,
+      "current_pnl": 160,
       "memo": "",
       "chart_data": {
         "strike_lines": [
@@ -2288,7 +2264,7 @@
           53.4,
           53.73,
           55.04,
-          56,
+          56.0,
           53.48,
           53.75,
           54.51,
@@ -2323,7 +2299,7 @@
           66.69,
           66.57,
           70.33,
-          77,
+          77.0,
           81.48,
           74.25,
           78.29,
@@ -2338,7 +2314,7 @@
           84.56,
           82.59,
           85.96,
-          89,
+          89.0,
           90.83,
           87.97,
           85.69,
@@ -2361,14 +2337,11 @@
           96.43,
           90.47,
           89.27,
-          89.27
+          93.97
         ]
       },
       "entry_price": 96.43,
-      "strategy_num": 149,
-      "leg_current_prices": [
-        0.07
-      ]
+      "strategy_num": 149
     },
     {
       "id": "p7",
@@ -2382,7 +2355,7 @@
       "underlying_en": "Crude Oil",
       "expiry_month": "8월물",
       "expiry_date": "2026-07-16",
-      "current_price": 86.75,
+      "current_price": 90.29,
       "legs": [
         {
           "type": "put_sell",
@@ -2414,21 +2387,6 @@
       "current_pnl": 3,
       "memo": "",
       "chart_data": {
-        "strike_lines": [
-          {
-            "price": 45,
-            "label": "풋 매도 행사가 $45",
-            "color": "#e06070",
-            "dash": true
-          }
-        ],
-        "profit_zone": {
-          "min": 45,
-          "max": 999,
-          "label": "수익 구간"
-        },
-        "expiry_date": "2026-07-16",
-        "entry_date": "2026-05-11",
         "dates": [
           "2025/10/21",
           "2025/10/22",
@@ -2639,7 +2597,7 @@
           55.24,
           57.06,
           55.53,
-          56,
+          56.0,
           56.89,
           56.51,
           57.13,
@@ -2697,8 +2655,23 @@
           91.74,
           85.78,
           85.82,
-          86.75
-        ]
+          90.29
+        ],
+        "strike_lines": [
+          {
+            "price": 45,
+            "label": "풋 매도 행사가 $45",
+            "color": "#e06070",
+            "dash": true
+          }
+        ],
+        "profit_zone": {
+          "min": 45,
+          "max": 999,
+          "label": "수익 구간"
+        },
+        "expiry_date": "2026-07-16",
+        "entry_date": "2026-05-11"
       },
       "entry_price": 86.75,
       "strategy_num": 150,
