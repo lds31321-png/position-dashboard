@@ -779,7 +779,7 @@ function renderCards(pos){
 
     // 현재 평가손익
     let pnlHtml='';
-    if(p.current_pnl!=null&&p.current_pnl!==0){
+    if(p.current_pnl!=null){
       const pnlKrw=Math.round(Math.abs(p.current_pnl)*rate/10000);
       const cls=p.current_pnl>0?'profit':p.current_pnl<0?'loss':'neutral';
       const sign=p.current_pnl>0?'+':p.current_pnl<0?'-':'';
@@ -1263,7 +1263,7 @@ function openModal(id){
 
   // ── 현재 평가손익 ──
   let pnlBlock='';
-  if(p.current_pnl!=null&&p.current_pnl!==0){
+  if(p.current_pnl!=null){
     const isProfit=p.current_pnl>0;
     const sign=p.current_pnl>0?'+':p.current_pnl<0?'-':'';
     const pnlKrw=Math.round(Math.abs(p.current_pnl)*rate/10000);
