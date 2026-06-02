@@ -3,9 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
 <title>직트 무료 포지션 공유</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -177,6 +174,30 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
 
 /* ── 매매내역 ── */
 .hist-hero{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+.pos-hero{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;}
+/* ── 액션 버튼 박스 ── */
+.action-row{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:20px;}
+.action-btn{display:flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:var(--r);background:var(--card);text-decoration:none;font-size:14px;font-weight:600;font-family:var(--mono);color:var(--t1);cursor:pointer;border:1.5px solid;transition:all .2s;box-shadow:var(--shadow-sm);}
+.action-btn:hover{transform:translateY(-1px);}
+.action-btn.btn-cyan{border-color:#2a5fa8;color:#2a5fa8;animation:pulse-cyan 2.5s ease-in-out infinite;}
+.action-btn.btn-green{border-color:#1a7a4a;color:#1a7a4a;animation:pulse-green 2.5s ease-in-out infinite;}
+.action-btn.btn-purple{border-color:#7a5fa8;color:#7a5fa8;animation:pulse-purple 2.5s ease-in-out infinite;}
+@keyframes pulse-cyan{0%,100%{box-shadow:0 0 0 0 rgba(42,95,168,.35);}50%{box-shadow:0 0 0 6px rgba(42,95,168,0);}}
+@keyframes pulse-green{0%,100%{box-shadow:0 0 0 0 rgba(26,122,74,.35);}50%{box-shadow:0 0 0 6px rgba(26,122,74,0);}}
+@keyframes pulse-purple{0%,100%{box-shadow:0 0 0 0 rgba(122,95,168,.35);}50%{box-shadow:0 0 0 6px rgba(122,95,168,0);}}
+.action-btn.btn-orange{border-color:#d9664a;color:#d9664a;animation:pulse-orange 2.5s ease-in-out infinite;}
+@keyframes pulse-orange{0%,100%{box-shadow:0 0 0 0 rgba(217,102,74,.35);}50%{box-shadow:0 0 0 6px rgba(217,102,74,0);}}
+
+/* ── 브리핑 모달 ── */
+.br-modal{background:var(--card);border:1px solid var(--b1);border-radius:16px;width:100%;max-width:640px;max-height:88vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,.18);}
+.br-head{padding:24px 28px 16px;border-bottom:1px solid var(--b1);position:relative;}
+.br-close{position:absolute;top:16px;right:18px;width:32px;height:32px;border-radius:50%;background:transparent;border:1px solid var(--b1);color:var(--t2);cursor:pointer;font-size:14px;line-height:1;transition:all .15s;}
+.br-close:hover{background:rgba(0,0,0,.04);color:var(--t1);}
+.br-title{font-size:18px;font-weight:700;color:var(--t1);margin-bottom:4px;letter-spacing:-.01em;}
+.br-date{font-size:12px;color:var(--t3);font-family:var(--mono);}
+.br-body{padding:20px 28px 26px;font-size:14px;color:var(--t1);line-height:1.7;white-space:pre-wrap;font-family:var(--sans);}
+.br-empty{padding:60px 28px;text-align:center;color:var(--t3);font-family:var(--mono);font-size:13px;}
+
 .metric{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow-sm);}
 .metric-label{font-size:13px;color:var(--t2);margin-bottom:6px;font-family:var(--mono);}
 .metric-val{font-size:22px;font-weight:700;font-family:var(--mono);color:var(--t1);}
@@ -302,18 +323,6 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
 .guide-panel strong{color:var(--accent);}
 
 /* 온보딩 투어 */
-.tour-overlay{position:fixed;inset:0;z-index:9000;pointer-events:none;}
-.tour-bg{position:absolute;inset:0;background:rgba(0,0,0,.5);}
-.tour-box{position:absolute;z-index:9010;background:var(--card);border:1px solid var(--b2);border-radius:12px;padding:18px 20px 14px;max-width:340px;box-shadow:0 8px 40px rgba(0,0,0,.2);font-family:var(--sans);}
-.tour-step-ind{font-size:10px;color:var(--t3);font-family:var(--mono);margin-bottom:8px;}
-.tour-title{font-size:13px;font-weight:600;color:var(--accent);margin-bottom:7px;}
-.tour-body{font-size:12px;color:var(--t2);line-height:1.7;margin-bottom:14px;}
-.tour-body strong{color:var(--t1);}
-.tour-btns{display:flex;justify-content:space-between;align-items:center;}
-.tour-skip{background:none;border:none;font-size:11px;color:var(--t3);cursor:pointer;font-family:var(--mono);}
-.tour-next{padding:6px 16px;border-radius:5px;border:none;background:var(--accent);color:#fff;font-size:12px;font-weight:600;cursor:pointer;}
-.tour-next:hover{opacity:.85;}
-.tour-hl{outline:2px solid rgba(217,102,74,.6)!important;outline-offset:4px!important;border-radius:8px;}
 
 /* 요약 */
 .posSummary{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;}
@@ -325,7 +334,7 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
 @media(max-width:900px){
   .hdr,.nav{padding-left:16px;padding-right:16px;}
   .page{padding:16px;}
-  .hist-hero,.g4{grid-template-columns:1fr 1fr;}
+  .hist-hero,.pos-hero,.g4{grid-template-columns:1fr 1fr;}
   .g2,.msg-boxes{grid-template-columns:1fr;}
   .posSummary{grid-template-columns:1fr 1fr;}
 }
@@ -349,7 +358,6 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
     </div>
     <div class="hdr-r">
       <div class="hdr-meta" id="headerMeta">—</div>
-      <button onclick="localStorage.removeItem('jikt_tour_done');startTour()" style="background:none;border:1px solid var(--b1);border-radius:5px;padding:3px 9px;font-size:10px;color:var(--t3);cursor:pointer;font-family:var(--mono);transition:all .15s;" onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'" onmouseout="this.style.borderColor='var(--b1)';this.style.color='var(--t3)'">? 가이드</button>
       <div class="dot"></div>
     </div>
   </div>
@@ -366,6 +374,16 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
 <!-- TAB 1 -->
 <div id="t1" class="page active">
 
+  <!-- 포지션 현황 KPI -->
+  <div class="pos-hero" id="posKpi"></div>
+
+  <!-- 액션 버튼 박스 -->
+  <div class="action-row">
+    <a class="action-btn btn-orange" href="https://bramble-gardenia-301.notion.site/334df6df17a280788263f467bfbd57aa?source=copy_link" target="_blank" rel="noopener">노션 (전략 자세히 보기)</a>
+    <a class="action-btn btn-orange" href="https://naver.me/5nheicte" target="_blank" rel="noopener">거래 시작하기</a>
+    <button class="action-btn btn-orange" onclick="openBriefingModal()">전략 브리핑</button>
+    <a class="action-btn btn-orange" href="https://lds31321-png.github.io/market-dashboard/" target="_blank" rel="noopener">글로벌 시장 현황</a>
+  </div>
 
   <!-- 인트로 배너 -->
   <div class="pos-grid" id="posGrid">
@@ -509,6 +527,18 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
       <div class="modal-date" id="mDate"></div>
     </div>
     <div class="modal-body" id="mBody"></div>
+  </div>
+</div>
+
+<!-- 전략 브리핑 모달 -->
+<div class="overlay" id="brOverlay" onclick="closeBriefingOut(event)">
+  <div class="br-modal">
+    <div class="br-head">
+      <button class="br-close" onclick="closeBriefingModal()">✕</button>
+      <div class="br-title" id="brTitle">전략 브리핑</div>
+      <div class="br-date" id="brDate"></div>
+    </div>
+    <div class="br-body" id="brBody"></div>
   </div>
 </div>
 
@@ -864,7 +894,8 @@ function buildPositionChart(p, canvasId){
     if(dow!==0&&dow!==6){
       futureLabels.push(toStr(cursor));
       futureCloses.push(null);
-      if(cursor.toISOString().slice(0,10)===cd.expiry_date){
+      const cy=cursor.getFullYear(),cm=String(cursor.getMonth()+1).padStart(2,'0'),cd2=String(cursor.getDate()).padStart(2,'0');
+      if(cy+'-'+cm+'-'+cd2===cd.expiry_date){
         expiryIdx=histLabels.length+futureLabels.length-1;
       }
     }
@@ -1271,7 +1302,7 @@ function openModal(id){
     <!-- 차트 -->
     ${p.chart_data?`
     <div style="margin-bottom:20px;">
-      <div style="font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--b1);">선물 가격 차트 (${(p.underlying_month && p.underlying_month !== p.expiry_month) ? `${p.underlying_month} · 기초자산` : (p.underlying_month || p.expiry_month)})</div>
+      <div style="font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--b1);">선물 가격 차트 (${p.expiry_month})</div>
       <div style="background:#f8f9fa;border:1px solid #dde1e7;border-radius:10px;padding:14px 14px 8px;">
         <div style="margin-bottom:10px;">${legendHtml}</div>
         <div style="position:relative;width:100%;height:380px;"><canvas id="posChart_${p.id}" role="img" aria-label="${p.underlying} 선물 가격 차트"></canvas></div>
@@ -1400,7 +1431,91 @@ function closeModal(){
 }
 function closeOut(e){if(e.target===document.getElementById('overlay'))closeModal();}
 
+// ── 전략 브리핑 모달 ──
+function openBriefingModal(){
+  const br = (typeof meta !== 'undefined' && meta && meta.briefing) ? meta.briefing : null;
+  const titleEl = document.getElementById('brTitle');
+  const dateEl  = document.getElementById('brDate');
+  const bodyEl  = document.getElementById('brBody');
+  if(br && br.content){
+    titleEl.textContent = br.title || '전략 브리핑';
+    dateEl.textContent  = br.date  || '';
+    bodyEl.innerHTML    = '';
+    bodyEl.className    = 'br-body';
+    bodyEl.textContent  = br.content;
+  }else{
+    titleEl.textContent = '전략 브리핑';
+    dateEl.textContent  = '';
+    bodyEl.className    = 'br-empty';
+    bodyEl.textContent  = '브리핑이 아직 준비되지 않았습니다.';
+  }
+  document.getElementById('brOverlay').classList.add('open');
+}
+function closeBriefingModal(){
+  document.getElementById('brOverlay').classList.remove('open');
+}
+function closeBriefingOut(e){
+  if(e.target === document.getElementById('brOverlay')) closeBriefingModal();
+}
+
 // ── 매매 내역 ──
+function renderPosKpi(){
+  const r = meta.exchange_rate || 1500;
+  const baseDeposit = meta.total_deposit_krw || 50000000;
+  const a = (allPos || []).filter(p => p.status === 'active');
+
+  // 청산 누적 손익 (RAW의 cum 마지막값)
+  const settledCum = (typeof DATA !== 'undefined' && DATA.length > 0) ? DATA[DATA.length-1].cum : 0;
+
+  // 활성 포지션 평가손익 합계 (원)
+  const activePnlKrw = a.reduce((s,p) => s + Math.round((p.current_pnl||0) * r), 0);
+
+  // 총 예탁금 (기본 + 청산 누적 + 활성 평가손익)
+  const totalDeposit = baseDeposit + settledCum + activePnlKrw;
+
+  // 총 증거금 합계
+  const totalMargin = a.reduce((s,p) => s + (p.margin_krw||0), 0);
+
+  // 평가손익 카운트
+  const profitCount = a.filter(p => (p.current_pnl||0) > 0).length;
+  const lossCount   = a.filter(p => (p.current_pnl||0) < 0).length;
+  const neutralCount = a.length - profitCount - lossCount;
+
+  // 색상 (수익=연빨강 #FF8080, 손실=연파랑 #5080CC)
+  const pnlColor = activePnlKrw > 0 ? '#FF8080' : activePnlKrw < 0 ? '#5080CC' : 'var(--t3)';
+  const pnlSign  = activePnlKrw > 0 ? '+' : activePnlKrw < 0 ? '-' : '';
+
+  // 증거금 비율 (총 예탁금 대비)
+  const marginPct = totalDeposit > 0 ? (totalMargin / totalDeposit * 100) : 0;
+
+  // 만원 단위 포맷터
+  const fmt = n => Math.round(n/10000).toLocaleString();
+  const fmtSign = n => (n>=0?'+':'-') + Math.round(Math.abs(n)/10000).toLocaleString();
+
+  // 평가손익 sub 텍스트
+  let pnlSub = `${a.length}개 포지션`;
+  if(profitCount) pnlSub += ` · ${profitCount}건 수익`;
+  if(lossCount) pnlSub += ` · ${lossCount}건 손실`;
+  if(neutralCount) pnlSub += ` · ${neutralCount}건 중립`;
+
+  document.getElementById('posKpi').innerHTML = `
+    <div class="metric">
+      <div class="metric-label">총 예탁금 (수익금 포함)</div>
+      <div class="metric-val mv-cyan">${fmt(totalDeposit)}만원</div>
+      <div class="metric-sub">기본 ${fmt(baseDeposit)}만 +누적 ${fmtSign(settledCum)}만 +평가 ${fmtSign(activePnlKrw)}만</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">현재 평가손익</div>
+      <div class="metric-val" style="color:${pnlColor};">${pnlSign}${Math.round(Math.abs(activePnlKrw)/10000).toLocaleString()}만원</div>
+      <div class="metric-sub">${pnlSub}</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">총 증거금</div>
+      <div class="metric-val">${fmt(totalMargin)}만원</div>
+      <div class="metric-sub">총 예탁금 대비 ${marginPct.toFixed(1)}%</div>
+    </div>
+  `;
+}
 function renderHistMetrics(){
   const _r=meta.exchange_rate||1500;
   const tw=DATA.filter(d=>d.pnl>0).reduce((s,d)=>s+d.pnl,0);
@@ -1589,7 +1704,7 @@ function renderHistory(filter){
   
   // 진행중 포지션은 필터/검색 시 제외 (전체 필터일 때만 상단 표시)
   const activeRows = (filter==='all' && !document.getElementById('searchInput').value.trim())
-    ? activePositions.map(x=>{
+    ? [...activePositions].reverse().map(x=>{
         const rate=meta.exchange_rate||1500;
         const d2=daysLeft(x.pos.expiry_date);
         const isExp=x.pos.status==='expired'||d2<0;
@@ -1978,107 +2093,6 @@ function wfScroll(targetId, stripId, activeId){
   if(activeBtn) activeBtn.classList.add('active');
 }
 
-// ── 온보딩 투어 ──
-const TOUR_STEPS=[
-  {
-    target:'wf-intro-area',
-    title:'직트 무료 포지션 공유에 오신 걸 환영해요!',
-    body:'이 대시보드는 <strong>시장 방향 예측 없이</strong> 수익이 나는 옵션 매도 전략을 공유하는 공간.',
-    pos:'bottom'
-  },
-  {
-    target:'posGrid',
-    title:'① 포지션 현황',
-    body:'현재 공유 중인 포지션. <strong>카드 클릭</strong>으로 선물 가격 차트와 수익 구조 확인.',
-    pos:'bottom'
-  },
-  {
-    target:'wf1-2',
-    title:'② 수익 구조 이해',
-    body:'각 카드의 <strong>? 버튼</strong>을 클릭하면 용어 설명 확인 가능.',
-    pos:'bottom'
-  },
-  {
-    target:'wfStrip2',
-    title:'③ 매매 내역 탭',
-    body:'143번의 실제 매매 기록. <strong>143번 중 118번</strong> 수익.',
-    pos:'bottom'
-  }
-];
-
-let tourIdx=0;
-let tourEl=null;
-
-function startTour(){
-  if(document.getElementById('tourOverlay'))return;
-  tourIdx=0;
-  const overlay=document.createElement('div');
-  overlay.id='tourOverlay';
-  overlay.className='tour-overlay';
-  overlay.innerHTML='<div class="tour-bg" id="tourBg"></div>';
-  document.body.appendChild(overlay);
-  tourEl=overlay;
-  showTourStep(0);
-}
-
-function showTourStep(idx){
-  if(!tourEl)return;
-  const step=TOUR_STEPS[idx];
-  const target=step.target?document.getElementById(step.target):null;
-
-  // 기존 박스 제거
-  const oldBox=document.getElementById('tourBox');
-  if(oldBox)oldBox.remove();
-  // 기존 하이라이트 제거
-  document.querySelectorAll('.tour-hl').forEach(el=>el.classList.remove('tour-hl'));
-
-  // 하이라이트
-  if(target){
-    target.classList.add('tour-hl');
-    target.scrollIntoView({behavior:'smooth',block:'center'});
-  }
-
-  const box=document.createElement('div');
-  box.id='tourBox';
-  box.className='tour-box';
-
-  const isLast=idx===TOUR_STEPS.length-1;
-  box.innerHTML=`
-    <div class="tour-step-ind">${idx+1} / ${TOUR_STEPS.length}</div>
-    <div class="tour-title">${step.title}</div>
-    <div class="tour-body">${step.body}</div>
-    <div class="tour-btns">
-      <button class="tour-skip" onclick="endTour()">건너뛰기</button>
-      <button class="tour-next" onclick="${isLast?'endTour()':'showTourStep('+(idx+1)+')'}">
-        ${isLast?'시작하기 →':'다음 →'}
-      </button>
-    </div>
-  `;
-
-  // 위치 계산
-  if(target){
-    const rect=target.getBoundingClientRect();
-    const scrollY=window.scrollY;
-    const boxTop=step.pos==='bottom'
-      ?scrollY+rect.bottom+16
-      :Math.max(scrollY+rect.top-220,scrollY+80);
-    const boxLeft=Math.max(16,Math.min(window.innerWidth-380,rect.left));
-    box.style.top=boxTop+'px';
-    box.style.left=boxLeft+'px';
-  } else {
-    box.style.top='50%';box.style.left='50%';
-    box.style.transform='translate(-50%,-50%)';
-  }
-  tourEl.appendChild(box);
-}
-
-function endTour(){
-  document.querySelectorAll('.tour-hl').forEach(el=>el.classList.remove('tour-hl'));
-  const overlay=document.getElementById('tourOverlay');
-  if(overlay)overlay.remove();
-  tourEl=null;
-  localStorage.setItem('jikt_tour_done','1');
-}
 
 // ── 저장 신호 수신 → 전체 재렌더 ──
 async function reloadFromAdmin(){
@@ -2106,6 +2120,7 @@ async function loadData(){
     document.getElementById('headerSub').textContent=`${today} 기준 · ${ac}개 포지션 공유 중`;
     document.getElementById('headerMeta').textContent=`업데이트: ${meta.last_updated||'—'}`;
     renderCards(allPos);
+    renderPosKpi();
   }catch(e){
     document.getElementById('posGrid').innerHTML='<div style="padding:40px;text-align:center;color:var(--red);font-size:12px;font-family:var(--mono)">positions.json을 불러오지 못했습니다.</div>';
   }
