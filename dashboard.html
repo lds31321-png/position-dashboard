@@ -804,7 +804,7 @@ function renderCards(pos){
         <span style="font-size:20px;font-weight:700;color:var(--t1);letter-spacing:-.02em;white-space:nowrap;">${p.underlying}</span>
         <div style="display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0;margin-left:8px;">
           <span style="font-size:13px;font-weight:500;color:var(--accent);font-family:var(--mono);background:var(--accent-b);padding:4px 10px;border-radius:4px;border:1px solid rgba(217,102,74,.18);white-space:nowrap;">${SL[p.strategy_type]||p.strategy_type}</span>
-          ${isNew?`<span style="font-size:11px;font-weight:700;color:#fff;background:#d9664a;padding:3px 8px;border-radius:4px;letter-spacing:.04em;">🆕 신규</span>`:''}
+          ${isNew?`<span style="font-size:12px;font-weight:700;color:#fff;background:#d9664a;padding:4px 10px;border-radius:4px;letter-spacing:.02em;">신규 진입</span>`:''}}
           ${isExpired
             ? `<span style="font-size:12px;font-weight:500;color:var(--t3);font-family:var(--mono);background:rgba(0,0,0,.05);padding:3px 8px;border-radius:4px;">만기청산</span>`
             : d<=5
