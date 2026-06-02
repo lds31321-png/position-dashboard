@@ -1006,20 +1006,20 @@ function buildPositionChart(p, canvasId){
           c.fillText('수익구간',(left+right)*0.38,midY);
         }
       }
-      // 손실구간 위
-      if(pMax<yMax){
-        const y1=yPx(pMax);
-        const midY=(top+Math.min(y1,bottom))/2;
-        if(midY>top&&midY<bottom){
+      // 손실구간 위 텍스트
+      {
+        const y1=clamp(yPx(pMax),top,bottom);
+        const midY=(top+y1)/2;
+        if(midY>top&&midY<bottom&&y1-top>20){
           c.fillStyle='rgba(40,80,200,0.55)';
           c.fillText('손실구간',(left+right)*0.5,midY);
         }
       }
-      // 손실구간 아래
-      if(pMin>yMin){
+      // 손실구간 아래 텍스트
+      {
         const y1=clamp(yPx(pMin),top,bottom);
         const midY=(y1+bottom)/2;
-        if(midY>top&&midY<bottom){
+        if(midY>top&&midY<bottom&&bottom-y1>20){
           c.fillStyle='rgba(40,80,200,0.55)';
           c.fillText('손실구간',(left+right)*0.5,midY);
         }
