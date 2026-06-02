@@ -883,7 +883,7 @@ function buildPositionChart(p, canvasId){
 
   // 마지막 데이터 날짜부터 만기일까지 빈 날짜 생성
   const lastDateStr=cd.dates[cd.dates.length-1];
-  const expiryDate=new Date(cd.expiry_date);
+  const expiryDate=new Date(p.expiry_date);
   let cursor=new Date(lastDateStr.replace(/\//g,'-'));
   cursor.setDate(cursor.getDate()+1);
 
@@ -895,7 +895,7 @@ function buildPositionChart(p, canvasId){
       futureLabels.push(toStr(cursor));
       futureCloses.push(null);
       const cy=cursor.getFullYear(),cm=String(cursor.getMonth()+1).padStart(2,'0'),cd2=String(cursor.getDate()).padStart(2,'0');
-      if(cy+'-'+cm+'-'+cd2===cd.expiry_date){
+      if(cy+'-'+cm+'-'+cd2===p.expiry_date){
         expiryIdx=histLabels.length+futureLabels.length-1;
       }
     }
@@ -911,7 +911,7 @@ function buildPositionChart(p, canvasId){
 
   const labels=[...histLabels,...futureLabels];
   const closes=[...histCloses,...futureCloses];
-  const daysLeft=Math.max(0,Math.round((new Date(cd.expiry_date)-new Date())/86400000));
+  const daysLeft=Math.max(0,Math.round((new Date(p.expiry_date)-new Date())/86400000));
 
   // y축 범위: 행사가 포함해서 넉넉하게
   const allPrices=[...histCloses,...cd.strike_lines.map(sl=>sl.price)];
