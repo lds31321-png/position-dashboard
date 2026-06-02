@@ -913,8 +913,9 @@ function buildPositionChart(p, canvasId){
   const closes=[...histCloses,...futureCloses];
   const daysLeft=Math.max(0,Math.round((new Date(p.expiry_date)-new Date())/86400000));
 
-  // y축 범위: 현재가 기준으로 설정, 행사가는 clamp로 처리
-  const mn=Math.min(...histCloses), mx=Math.max(...histCloses);
+  // y축 범위: 행사가 포함해서 넉넉하게
+  const allPrices=[...histCloses,...cd.strike_lines.map(sl=>sl.price)];
+  const mn=Math.min(...allPrices), mx=Math.max(...allPrices);
   const pad=(mx-mn)*0.12;
   const yMin=mn-pad, yMax=mx+pad;
 
@@ -967,6 +968,7 @@ function buildPositionChart(p, canvasId){
 
       // ── 행사가 수평선 ──
       cd.strike_lines.forEach(sl=>{
+        if(sl.price<yMin*0.98||sl.price>yMax*1.02)return;
         const yp=clamp(yPx(sl.price),top,bottom);
 
         c.save();
