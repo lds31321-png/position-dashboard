@@ -2536,7 +2536,7 @@
       ],
       "expected_return_pct": 33.97,
       "monthly_return_pct": 23.18,
-      "current_pnl": null,
+      "current_pnl": 0,
       "memo": "",
       "chart_data": {
         "dates": [
@@ -2668,7 +2668,7 @@
       ],
       "expected_return_pct": 33.0,
       "monthly_return_pct": 17.68,
-      "current_pnl": null,
+      "current_pnl": 0,
       "memo": "",
       "chart_data": {
         "dates": [
@@ -2812,7 +2812,7 @@
       ],
       "expected_return_pct": 49.3,
       "monthly_return_pct": 17.4,
-      "current_pnl": null,
+      "current_pnl": 0,
       "memo": "",
       "chart_data": {
         "dates": [
@@ -2996,7 +2996,7 @@
       ],
       "expected_return_pct": 3.89,
       "monthly_return_pct": 7.3,
-      "current_pnl": null,
+      "current_pnl": 0,
       "memo": "",
       "chart_data": {
         "dates": [
@@ -3089,7 +3089,7 @@
       ],
       "expected_return_pct": 33.41,
       "monthly_return_pct": 12.53,
-      "current_pnl": null,
+      "current_pnl": 0,
       "memo": "",
       "chart_data": {
         "dates": [
