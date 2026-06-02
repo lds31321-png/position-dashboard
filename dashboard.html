@@ -187,6 +187,8 @@ body{background:var(--bg);color:var(--t1);font-family:var(--sans);font-size:13px
 @keyframes pulse-purple{0%,100%{box-shadow:0 0 0 0 rgba(122,95,168,.35);}50%{box-shadow:0 0 0 6px rgba(122,95,168,0);}}
 .action-btn.btn-orange{border-color:#d9664a;color:#d9664a;animation:pulse-orange 2.5s ease-in-out infinite;}
 @keyframes pulse-orange{0%,100%{box-shadow:0 0 0 0 rgba(217,102,74,.35);}50%{box-shadow:0 0 0 6px rgba(217,102,74,0);}}
+@keyframes pulse-new{0%,100%{box-shadow:0 0 0 0 rgba(217,102,74,.6);}50%{box-shadow:0 0 0 8px rgba(217,102,74,0);}}
+.new-pos{border:2px solid #d9664a!important;animation:pulse-new 2s ease-in-out infinite;}
 
 /* ── 브리핑 모달 ── */
 .br-modal{background:var(--card);border:1px solid var(--b1);border-radius:16px;width:100%;max-width:640px;max-height:88vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,.18);}
@@ -750,6 +752,8 @@ function renderCards(pos){
     const isExpired=p.status==='expired'||d<0;
     const urg=!isExpired&&d<=5?'urgent':'';
     const cc=CC[p.strategy_type]||'col-green';
+    const daysSinceShared=Math.floor((new Date()-new Date(p.shared_date))/86400000);
+    const isNew=!isExpired&&daysSinceShared<=3;
     const progGrad=isExpired?'linear-gradient(90deg,#555,#777)':d<=5?'linear-gradient(90deg,#e06070,#e8956a)':d<=20?'linear-gradient(90deg,#e8956a,#e8c96a)':'linear-gradient(90deg,#3ecfaa,#4dd8f0)';
 
     let headline='', safetyBig='', safetySection='';
@@ -793,13 +797,14 @@ function renderCards(pos){
     const marginKrw=Math.round((p.margin||0)*rate/10000);
     const premiumKrw=Math.round((p.total_premium||0)*rate/10000);
 
-    return `<div class="pos-card ${isExpired?'expired':''}" onclick="openModal('${p.id}')">
+    return `<div class="pos-card ${isExpired?'expired':''} ${isNew?'new-pos':''}" onclick="openModal('${p.id}')">
 
       <!-- 헤더: 종목 + 전략 배지 -->
       <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;">
         <span style="font-size:20px;font-weight:700;color:var(--t1);letter-spacing:-.02em;white-space:nowrap;">${p.underlying}</span>
         <div style="display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0;margin-left:8px;">
           <span style="font-size:13px;font-weight:500;color:var(--accent);font-family:var(--mono);background:var(--accent-b);padding:4px 10px;border-radius:4px;border:1px solid rgba(217,102,74,.18);white-space:nowrap;">${SL[p.strategy_type]||p.strategy_type}</span>
+          ${isNew?`<span style="font-size:11px;font-weight:700;color:#fff;background:#d9664a;padding:3px 8px;border-radius:4px;letter-spacing:.04em;">🆕 신규</span>`:''}
           ${isExpired
             ? `<span style="font-size:12px;font-weight:500;color:var(--t3);font-family:var(--mono);background:rgba(0,0,0,.05);padding:3px 8px;border-radius:4px;">만기청산</span>`
             : d<=5
