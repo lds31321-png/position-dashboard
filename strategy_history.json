@@ -1,0 +1,4854 @@
+[
+  {
+    "num": 1,
+    "commodity": "크루드 오일",
+    "expiry_month": "10월물V",
+    "entry_date": "2024-08-09",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-08-09",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 103.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-08-14",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 102",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-08-14",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 60.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-08-09",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 57",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 193344.0,
+    "result": "win"
+  },
+  {
+    "num": 2,
+    "commodity": "천연가스",
+    "expiry_month": "10월물V",
+    "entry_date": "2024-08-07",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-08-07",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 3.55",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-08-21",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 3.35",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-08-20",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 1.65",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-08-14",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 1.55",
+        "premium_usd": 110.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -90668.0,
+    "result": "loss"
+  },
+  {
+    "num": 3,
+    "commodity": "골드",
+    "expiry_month": "10월물V",
+    "entry_date": "2024-08-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-08-15",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 2975",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-08-30",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10C 2850",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-08-15",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 2260",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-08-15",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 2180",
+        "premium_usd": 130.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 418490.0,
+    "result": "win"
+  },
+  {
+    "num": 4,
+    "commodity": "밀",
+    "expiry_month": "10월물V",
+    "entry_date": "2024-08-20",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-08-20",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 655",
+        "premium_usd": 56.5
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 325678.0,
+    "result": "win"
+  },
+  {
+    "num": 5,
+    "commodity": "호주달러",
+    "expiry_month": "10월물V",
+    "entry_date": "2024-08-21",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-08-21",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 0.710",
+        "premium_usd": 55.0
+      },
+      {
+        "date": "2024-09-05",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 0.705",
+        "premium_usd": 50.0
+      },
+      {
+        "date": "2024-09-12",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 0.640",
+        "premium_usd": 40.0
+      },
+      {
+        "date": "2024-09-05",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 0.640",
+        "premium_usd": 60.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 253281.0,
+    "result": "win"
+  },
+  {
+    "num": 6,
+    "commodity": "크루드 오일",
+    "expiry_month": "11월물X",
+    "entry_date": "2024-08-20",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-08-20",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 101",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-10-10",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 93.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-09-03",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 90",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-10-14",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 87",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-09-19",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 86",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-09-12",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 81",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-09-03",
+        "month": "11월물X",
+        "type": "P 매도",
+        "strike": "11P 55",
+        "premium_usd": 220.0
+      },
+      {
+        "date": "2024-08-20",
+        "month": "11월물X",
+        "type": "P 매도",
+        "strike": "11P 52",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-09-12",
+        "month": "11월물X",
+        "type": "P 매도",
+        "strike": "11P 49",
+        "premium_usd": 90.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 160217.0,
+    "result": "win"
+  },
+  {
+    "num": 7,
+    "commodity": "밀",
+    "expiry_month": "11월물X",
+    "entry_date": "2024-08-30",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-09-16",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 725",
+        "premium_usd": 56.5
+      },
+      {
+        "date": "2024-09-05",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 705",
+        "premium_usd": 106.5
+      },
+      {
+        "date": "2024-08-30",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 705",
+        "premium_usd": 69.0
+      },
+      {
+        "date": "2024-09-12",
+        "month": "11월물X",
+        "type": "P 매도",
+        "strike": "11P 510",
+        "premium_usd": 69.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 78791.0,
+    "result": "win"
+  },
+  {
+    "num": 8,
+    "commodity": "대두",
+    "expiry_month": "11월물X",
+    "entry_date": "2024-09-03",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-09-16",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 1120",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-09-03",
+        "month": "11월물X",
+        "type": "P 매도",
+        "strike": "11P 860",
+        "premium_usd": 37.5
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 137074.0,
+    "result": "win"
+  },
+  {
+    "num": 9,
+    "commodity": "10년채권",
+    "expiry_month": "11월물X",
+    "entry_date": "2024-09-03",
+    "strategy_type": "네이키드 풋 매도",
+    "legs": [
+      {
+        "date": "2024-09-03",
+        "month": "11월물X",
+        "type": "P 매도",
+        "strike": "11P 109",
+        "premium_usd": 62.5
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 219466.0,
+    "result": "win"
+  },
+  {
+    "num": 10,
+    "commodity": "골드",
+    "expiry_month": "11월물X",
+    "entry_date": "2024-09-16",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-09-16",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 2900",
+        "premium_usd": 340.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 1763780.0,
+    "result": "win"
+  },
+  {
+    "num": 11,
+    "commodity": null,
+    "expiry_month": "11월물X",
+    "entry_date": "2024-09-19",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-09-19",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 7900",
+        "premium_usd": 75.0
+      },
+      {
+        "date": "2024-09-25",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 7800",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-09-25",
+        "month": "11월물X",
+        "type": "P 매도",
+        "strike": "11P 6500",
+        "premium_usd": 62.5
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -759870.0,
+    "result": "loss"
+  },
+  {
+    "num": 12,
+    "commodity": "호주달러",
+    "expiry_month": "11월물X",
+    "entry_date": "2024-09-19",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-09-19",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 0.730",
+        "premium_usd": 40.0
+      },
+      {
+        "date": "2024-09-20",
+        "month": "11월물X",
+        "type": "C 매도",
+        "strike": "11C 0.725",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 386932.0,
+    "result": "win"
+  },
+  {
+    "num": 13,
+    "commodity": "천연가스",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-08-30",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-09-25",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 5.80",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-09-12",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 5.50",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-08-30",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 5.50",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-09-25",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 2.20",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-10-31",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 2.10",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-08-30",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 1.90",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 198957.0,
+    "result": "win"
+  },
+  {
+    "num": 14,
+    "commodity": "10년채권",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-09-05",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-09-25",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 121",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-09-05",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 108",
+        "premium_usd": 78.12
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 249084.0,
+    "result": "win"
+  },
+  {
+    "num": 15,
+    "commodity": "대두",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-09-20",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-09-20",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 1190",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 115201.0,
+    "result": "win"
+  },
+  {
+    "num": 16,
+    "commodity": "밀",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-09-20",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-09-20",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 750",
+        "premium_usd": 50.0
+      },
+      {
+        "date": "2024-10-17",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 690",
+        "premium_usd": 69.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 161541.0,
+    "result": "win"
+  },
+  {
+    "num": 17,
+    "commodity": "크루드 오일",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-09-25",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-10-08",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 135",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-10-16",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 115",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-09-25",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 92",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-10-17",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12P 52",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-10-16",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12P 52",
+        "premium_usd": 110.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 309842.0,
+    "result": "win"
+  },
+  {
+    "num": 18,
+    "commodity": "골드",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-09-25",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-10-21",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 3050",
+        "premium_usd": 280.0
+      },
+      {
+        "date": "2024-09-25",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 2370",
+        "premium_usd": 330.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 177442.0,
+    "result": "win"
+  },
+  {
+    "num": 19,
+    "commodity": "호주달러",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-10-14",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-10-14",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 0.715",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-11-05",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 0.620",
+        "premium_usd": 80.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 1096457.0,
+    "result": "win"
+  },
+  {
+    "num": 20,
+    "commodity": null,
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-10-14",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-10-14",
+        "month": "12월물Z",
+        "type": "C 매도",
+        "strike": "12C 7450",
+        "premium_usd": 62.5
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 17212.0,
+    "result": "win"
+  },
+  {
+    "num": 21,
+    "commodity": "유로",
+    "expiry_month": "12월물Z",
+    "entry_date": "2024-10-21",
+    "strategy_type": "네이키드 풋 매도",
+    "legs": [
+      {
+        "date": "2024-10-31",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 1.04",
+        "premium_usd": 75.0
+      },
+      {
+        "date": "2024-10-21",
+        "month": "12월물Z",
+        "type": "P 매도",
+        "strike": "12P 1.03",
+        "premium_usd": 62.5
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -346835.0,
+    "result": "loss"
+  },
+  {
+    "num": 22,
+    "commodity": "옥수수",
+    "expiry_month": "5월물K",
+    "entry_date": "2024-03-22",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-03-22",
+        "month": "5월물K",
+        "type": "C 매도",
+        "strike": "5C 510",
+        "premium_usd": 37.5
+      },
+      {
+        "date": "2024-03-22",
+        "month": "5월물K",
+        "type": "P 매도",
+        "strike": "5P 395",
+        "premium_usd": 56.5
+      }
+    ],
+    "total_premium": 188.0,
+    "margin": 683.0,
+    "pnl": -127078.0,
+    "result": "loss"
+  },
+  {
+    "num": 23,
+    "commodity": "호주달러",
+    "expiry_month": "5월물K",
+    "entry_date": "2024-03-26",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-03-26",
+        "month": "5월물K",
+        "type": "C 매도",
+        "strike": "5C 0.680",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-04-22",
+        "month": "5월물K",
+        "type": "P 매도",
+        "strike": "5P 0.630",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-03-26",
+        "month": "5월물K",
+        "type": "P 매도",
+        "strike": "5P 0.630",
+        "premium_usd": 60.0
+      }
+    ],
+    "total_premium": 140.0,
+    "margin": 972.0,
+    "pnl": 103325.0,
+    "result": "win"
+  },
+  {
+    "num": 24,
+    "commodity": "유로",
+    "expiry_month": "5월물K",
+    "entry_date": "2024-03-27",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-03-27",
+        "month": "5월물K",
+        "type": "C 매도",
+        "strike": "5C 1.115",
+        "premium_usd": 50.0
+      },
+      {
+        "date": "2024-04-19",
+        "month": "5월물K",
+        "type": "P 매도",
+        "strike": "5P 1.050",
+        "premium_usd": 87.5
+      },
+      {
+        "date": "2024-03-27",
+        "month": "5월물K",
+        "type": "P 매도",
+        "strike": "5P 1.050",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 137.5,
+    "margin": 1453.0,
+    "pnl": 24494.0,
+    "result": "win"
+  },
+  {
+    "num": 25,
+    "commodity": "크루드 오일",
+    "expiry_month": "6월물M",
+    "entry_date": "2024-03-19",
+    "strategy_type": "변형 레이쇼 스프레드",
+    "legs": [
+      {
+        "date": "2024-04-17",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 114",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-04-11",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 114",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-04-09",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 114",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-03-19",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 112",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-04-18",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 110.5",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-03-20",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 108",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-04-10",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 105.5",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-04-11",
+        "month": "6월물M",
+        "type": "C 매수",
+        "strike": "6C 104.5",
+        "premium_usd": -230.0
+      },
+      {
+        "date": "2024-04-19",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 97",
+        "premium_usd": 770.0
+      },
+      {
+        "date": "2024-04-11",
+        "month": "6월물M",
+        "type": "P 매수",
+        "strike": "6P 72",
+        "premium_usd": -140.0
+      },
+      {
+        "date": "2024-04-10",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 71",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-04-18",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 68.5",
+        "premium_usd": 11.0
+      },
+      {
+        "date": "2024-04-15",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 68",
+        "premium_usd": 70.0
+      },
+      {
+        "date": "2024-04-11",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 68",
+        "premium_usd": 70.0
+      },
+      {
+        "date": "2024-04-01",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 65",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-03-22",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 64",
+        "premium_usd": 160.0
+      }
+    ],
+    "total_premium": 1521.0,
+    "margin": 6985.0,
+    "pnl": -73911.0,
+    "result": "loss"
+  },
+  {
+    "num": 26,
+    "commodity": "천연가스",
+    "expiry_month": "6월물M",
+    "entry_date": "2024-03-27",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-21",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 3.30",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-04-09",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 3.20",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-04-01",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 3.05",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-05-17",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 2.90",
+        "premium_usd": 280.0
+      },
+      {
+        "date": "2024-05-15",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 2.80",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-05-03",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 2.80",
+        "premium_usd": 50.0
+      },
+      {
+        "date": "2024-04-17",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 2.70",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-03",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 1.50",
+        "premium_usd": 50.0
+      },
+      {
+        "date": "2024-04-22",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 1.45",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-04-10",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 1.35",
+        "premium_usd": 70.0
+      },
+      {
+        "date": "2024-04-03",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 1.35",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-03-27",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 1.25",
+        "premium_usd": 110.0
+      }
+    ],
+    "total_premium": 610.0,
+    "margin": 3610.0,
+    "pnl": 1160604.0,
+    "result": "win"
+  },
+  {
+    "num": 27,
+    "commodity": "옥수수",
+    "expiry_month": "6월물M",
+    "entry_date": "2024-04-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-04-01",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 535",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-04-10",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 400",
+        "premium_usd": 62.5
+      }
+    ],
+    "total_premium": 125.0,
+    "margin": 513.0,
+    "pnl": 876894.0,
+    "result": "win"
+  },
+  {
+    "num": 28,
+    "commodity": "골드",
+    "expiry_month": "6월물M",
+    "entry_date": "2024-04-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-04-01",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 2850",
+        "premium_usd": 150.0
+      },
+      {
+        "date": "2024-04-18",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 2800",
+        "premium_usd": 180.0
+      },
+      {
+        "date": "2024-04-29",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 2610",
+        "premium_usd": 150.0
+      },
+      {
+        "date": "2024-04-29",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 2155",
+        "premium_usd": 120.0
+      }
+    ],
+    "total_premium": 600.0,
+    "margin": 6955.0,
+    "pnl": 314148.0,
+    "result": "win"
+  },
+  {
+    "num": 29,
+    "commodity": "밀",
+    "expiry_month": "6월물M",
+    "entry_date": "2024-04-09",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-13",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 795",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-15",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 780",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-05-10",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 780",
+        "premium_usd": 87.5
+      },
+      {
+        "date": "2024-05-06",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 745",
+        "premium_usd": 119.0
+      },
+      {
+        "date": "2024-04-22",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 725",
+        "premium_usd": 87.5
+      },
+      {
+        "date": "2024-04-09",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 725",
+        "premium_usd": 87.5
+      },
+      {
+        "date": "2024-04-09",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 490",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 350.0,
+    "margin": 1695.0,
+    "pnl": 248611.0,
+    "result": "win"
+  },
+  {
+    "num": 30,
+    "commodity": "대두",
+    "expiry_month": "6월물M",
+    "entry_date": "2024-04-09",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-08",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 1340",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-04-09",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 1340",
+        "premium_usd": 50.0
+      },
+      {
+        "date": "2024-05-03",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 1120",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 50.0,
+    "margin": 986.0,
+    "pnl": -122846.0,
+    "result": "loss"
+  },
+  {
+    "num": 31,
+    "commodity": "호주달러",
+    "expiry_month": "6월물M",
+    "entry_date": "2024-04-29",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-07",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 0.690",
+        "premium_usd": 40.0
+      },
+      {
+        "date": "2024-04-29",
+        "month": "6월물M",
+        "type": "C 매도",
+        "strike": "6C 0.685",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-05-03",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 0.635",
+        "premium_usd": 70.0
+      },
+      {
+        "date": "2024-05-07",
+        "month": "6월물M",
+        "type": "P 매도",
+        "strike": "6P 0.630",
+        "premium_usd": 40.0
+      }
+    ],
+    "total_premium": 210.0,
+    "margin": 1371.0,
+    "pnl": 194571.0,
+    "result": "win"
+  },
+  {
+    "num": 32,
+    "commodity": "크루드 오일",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-03-26",
+    "strategy_type": "변형 레이쇼 스프레드",
+    "legs": [
+      {
+        "date": "2024-04-17",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 127",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-04-10",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 123.5",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-04-18",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 122",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-04-11",
+        "month": "7월물N",
+        "type": "C 매수",
+        "strike": "7C 120",
+        "premium_usd": -150.0
+      },
+      {
+        "date": "2024-04-22",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 115",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-04-29",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 110",
+        "premium_usd": 70.0
+      },
+      {
+        "date": "2024-03-26",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 105.5",
+        "premium_usd": 170.0
+      },
+      {
+        "date": "2024-05-03",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 95",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-15",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 91",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-04-15",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 68",
+        "premium_usd": -310.0
+      },
+      {
+        "date": "2024-05-10",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 60",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-05-08",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 60",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-05-03",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 60",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-04-15",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 59",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-03-26",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 59",
+        "premium_usd": 160.0
+      },
+      {
+        "date": "2024-05-02",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 58",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-04-22",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 58",
+        "premium_usd": 90.0
+      }
+    ],
+    "total_premium": 1140.0,
+    "margin": 13972.0,
+    "pnl": -480929.0,
+    "result": "loss"
+  },
+  {
+    "num": 33,
+    "commodity": "10년채권",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-02",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-10",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 114",
+        "premium_usd": 46.88
+      },
+      {
+        "date": "2024-05-07",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 114",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-05-07",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 105",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-05-02",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 103.5",
+        "premium_usd": 62.5
+      }
+    ],
+    "total_premium": 234.38,
+    "margin": 1563.0,
+    "pnl": 993543.18,
+    "result": "win"
+  },
+  {
+    "num": 34,
+    "commodity": "밀",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-02",
+    "strategy_type": "변형 레이쇼 스프레드",
+    "legs": [
+      {
+        "date": "2024-05-15",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 960",
+        "premium_usd": 81.5
+      },
+      {
+        "date": "2024-05-10",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 900",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-28",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 860",
+        "premium_usd": 87.5
+      },
+      {
+        "date": "2024-05-08",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 810",
+        "premium_usd": 175.0
+      },
+      {
+        "date": "2024-05-09",
+        "month": "7월물N",
+        "type": "C 매수",
+        "strike": "7C 775",
+        "premium_usd": -331.5
+      },
+      {
+        "date": "2024-05-16",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 570",
+        "premium_usd": 106.5
+      },
+      {
+        "date": "2024-05-02",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 500",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 319.0,
+    "margin": 1566.0,
+    "pnl": -27250.860000000084,
+    "result": "loss"
+  },
+  {
+    "num": 35,
+    "commodity": "대두",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-03",
+    "strategy_type": "변형 레이쇼 스프레드",
+    "legs": [
+      {
+        "date": "2024-05-10",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 1410",
+        "premium_usd": 81.5
+      },
+      {
+        "date": "2024-05-08",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 1410",
+        "premium_usd": 175.0
+      },
+      {
+        "date": "2024-05-09",
+        "month": "7월물N",
+        "type": "C 매수",
+        "strike": "7C 1360",
+        "premium_usd": -269.0
+      },
+      {
+        "date": "2024-05-21",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 1140",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-06",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 1100",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-03",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 1090",
+        "premium_usd": 110.0
+      }
+    ],
+    "total_premium": 297.5,
+    "margin": 4092.0,
+    "pnl": -377866.44000000006,
+    "result": "loss"
+  },
+  {
+    "num": 36,
+    "commodity": "골드",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-20",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 2750",
+        "premium_usd": 220.0
+      },
+      {
+        "date": "2024-05-15",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 2690",
+        "premium_usd": 220.0
+      },
+      {
+        "date": "2024-05-27",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 2230",
+        "premium_usd": 270.0
+      }
+    ],
+    "total_premium": 490.0,
+    "margin": 7259.0,
+    "pnl": 93757.02,
+    "result": "win"
+  },
+  {
+    "num": 37,
+    "commodity": "천연가스",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-06",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 4.40",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-05-28",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 4.00",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-05-21",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 4.00",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-15",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 3.40",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-06-05",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 2.05",
+        "premium_usd": 80.0
+      },
+      {
+        "date": "2024-05-15",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 1.90",
+        "premium_usd": 90.0
+      }
+    ],
+    "total_premium": 440.0,
+    "margin": 2475.0,
+    "pnl": 220064.04,
+    "result": "win"
+  },
+  {
+    "num": 38,
+    "commodity": "옥수수",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-16",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-28",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 510",
+        "premium_usd": 81.5
+      },
+      {
+        "date": "2024-05-21",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 510",
+        "premium_usd": 112.5
+      },
+      {
+        "date": "2024-05-29",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 430",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-06-04",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 425",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-16",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 425",
+        "premium_usd": 112.5
+      }
+    ],
+    "total_premium": 406.5,
+    "margin": 1907.0,
+    "pnl": -190065.96,
+    "result": "loss"
+  },
+  {
+    "num": 39,
+    "commodity": "호주달러",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-28",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-28",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 0.695",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-05-28",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 0.640",
+        "premium_usd": 60.0
+      }
+    ],
+    "total_premium": 120.0,
+    "margin": 624.0,
+    "pnl": 632876.1599999999,
+    "result": "win"
+  },
+  {
+    "num": 40,
+    "commodity": "유로",
+    "expiry_month": "7월물N",
+    "entry_date": "2024-05-31",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-31",
+        "month": "7월물N",
+        "type": "C 매도",
+        "strike": "7C 1.115",
+        "premium_usd": 112.5
+      },
+      {
+        "date": "2024-05-31",
+        "month": "7월물N",
+        "type": "P 매도",
+        "strike": "7P 1.065",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 112.5,
+    "margin": 568.0,
+    "pnl": 812604.2399999999,
+    "result": "win"
+  },
+  {
+    "num": 41,
+    "commodity": "대두",
+    "expiry_month": "8월물Q",
+    "entry_date": "2024-05-16",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-16",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 1510",
+        "premium_usd": 112.5
+      },
+      {
+        "date": "2024-05-16",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 1050",
+        "premium_usd": 106.5
+      }
+    ],
+    "total_premium": 112.5,
+    "margin": 13.0,
+    "pnl": -89798.93999999997,
+    "result": "loss"
+  },
+  {
+    "num": 42,
+    "commodity": "크루드 오일",
+    "expiry_month": "8월물Q",
+    "entry_date": "2024-05-22",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-05-22",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 97",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-05-28",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 95",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-05-27",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 58",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-05-22",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 55.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-06-04",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 52",
+        "premium_usd": 90.0
+      }
+    ],
+    "total_premium": 540.0,
+    "margin": 7288.0,
+    "pnl": 191407.02,
+    "result": "win"
+  },
+  {
+    "num": 43,
+    "commodity": "10년채권",
+    "expiry_month": "8월물Q",
+    "entry_date": "2024-06-04",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-04",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 116",
+        "premium_usd": 46.88
+      },
+      {
+        "date": "2024-06-19",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 114.5",
+        "premium_usd": 62.5
+      },
+      {
+        "date": "2024-06-19",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 107.5",
+        "premium_usd": 78.12
+      }
+    ],
+    "total_premium": 140.62,
+    "margin": 1082.0,
+    "pnl": 77482.02,
+    "result": "win"
+  },
+  {
+    "num": 44,
+    "commodity": "밀",
+    "expiry_month": "8월물Q",
+    "entry_date": "2024-06-05",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-05",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 1000",
+        "premium_usd": 50.0
+      },
+      {
+        "date": "2024-06-24",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 490",
+        "premium_usd": 55.0
+      }
+    ],
+    "total_premium": 50.0,
+    "margin": 13.0,
+    "pnl": 661468.0800000001,
+    "result": "win"
+  },
+  {
+    "num": 45,
+    "commodity": "천연가스",
+    "expiry_month": "8월물Q",
+    "entry_date": "2024-06-17",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-24",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 4.20",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-06-17",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 4.20",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-06-17",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 2.15",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-06-24",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 2.15",
+        "premium_usd": 70.0
+      },
+      {
+        "date": "2024-07-12",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 2.00",
+        "premium_usd": 90.0
+      }
+    ],
+    "total_premium": 230.0,
+    "margin": 66.0,
+    "pnl": 223374.375,
+    "result": "win"
+  },
+  {
+    "num": 46,
+    "commodity": "호주달러",
+    "expiry_month": "8월물Q",
+    "entry_date": "2024-06-20",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-20",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 0.730",
+        "premium_usd": 45.0
+      },
+      {
+        "date": "2024-06-28",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 0.700",
+        "premium_usd": 40.0
+      },
+      {
+        "date": "2024-06-28",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 0.625",
+        "premium_usd": 40.0
+      },
+      {
+        "date": "2024-06-20",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 0.625",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 175.0,
+    "margin": 879.0,
+    "pnl": 156240.0,
+    "result": "win"
+  },
+  {
+    "num": 47,
+    "commodity": "유로",
+    "expiry_month": "8월물Q",
+    "entry_date": "2024-06-24",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-24",
+        "month": "8월물Q",
+        "type": "C 매도",
+        "strike": "8C 1.115",
+        "premium_usd": 75.0
+      },
+      {
+        "date": "2024-06-24",
+        "month": "8월물Q",
+        "type": "P 매도",
+        "strike": "8P 1.020",
+        "premium_usd": 75.0
+      }
+    ],
+    "total_premium": 150.0,
+    "margin": 1036.0,
+    "pnl": 182497.31999999998,
+    "result": "win"
+  },
+  {
+    "num": 48,
+    "commodity": "크루드 오일",
+    "expiry_month": "9월물U",
+    "entry_date": "2024-06-19",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-07-11",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 104",
+        "premium_usd": 40.0
+      },
+      {
+        "date": "2024-06-28",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 100",
+        "premium_usd": 150.0
+      },
+      {
+        "date": "2024-06-24",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 100",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-08-01",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 98",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-06-19",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 95",
+        "premium_usd": 150.0
+      },
+      {
+        "date": "2024-07-10",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 94.5",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-07-18",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 92",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-07-04",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 70",
+        "premium_usd": 150.0
+      },
+      {
+        "date": "2024-08-01",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 69",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-07-10",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 68",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-07-31",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 66.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-07-26",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 65",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-06-28",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 64.5",
+        "premium_usd": 140.0
+      },
+      {
+        "date": "2024-06-19",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 63",
+        "premium_usd": 140.0
+      }
+    ],
+    "total_premium": 1460.0,
+    "margin": 20409.0,
+    "pnl": 295917.11999999994,
+    "result": "win"
+  },
+  {
+    "num": 49,
+    "commodity": "옥수수",
+    "expiry_month": "9월물U",
+    "entry_date": "2024-06-20",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-20",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 560",
+        "premium_usd": 155.0
+      },
+      {
+        "date": "2024-07-11",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 485",
+        "premium_usd": 55.0
+      },
+      {
+        "date": "2024-08-01",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 420",
+        "premium_usd": 55.0
+      },
+      {
+        "date": "2024-07-23",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 365",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-06-27",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 360",
+        "premium_usd": 55.0
+      },
+      {
+        "date": "2024-07-11",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 355",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 325.0,
+    "margin": 878.0,
+    "pnl": 1063122.48,
+    "result": "win"
+  },
+  {
+    "num": 50,
+    "commodity": "천연가스",
+    "expiry_month": "9월물U",
+    "entry_date": "2024-06-28",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-28",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 4.15",
+        "premium_usd": 140.0
+      },
+      {
+        "date": "2024-07-11",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 3.45",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2024-06-28",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 1.70",
+        "premium_usd": 140.0
+      },
+      {
+        "date": "2024-07-04",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 1.60",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-07-22",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 1.50",
+        "premium_usd": 110.0
+      }
+    ],
+    "total_premium": 340.0,
+    "margin": 706.0,
+    "pnl": 29517.1199999999,
+    "result": "win"
+  },
+  {
+    "num": 51,
+    "commodity": "밀",
+    "expiry_month": "9월물U",
+    "entry_date": "2024-06-28",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-06-28",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 730",
+        "premium_usd": 135.0
+      },
+      {
+        "date": "2024-08-01",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 635",
+        "premium_usd": 55.0
+      },
+      {
+        "date": "2024-07-23",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 480",
+        "premium_usd": 60.0
+      },
+      {
+        "date": "2024-06-28",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 470",
+        "premium_usd": 55.0
+      }
+    ],
+    "total_premium": 250.0,
+    "margin": 989.0,
+    "pnl": 337881.77999999997,
+    "result": "win"
+  },
+  {
+    "num": 52,
+    "commodity": "골드",
+    "expiry_month": "9월물U",
+    "entry_date": "2024-07-04",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-07-04",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 2750",
+        "premium_usd": 250.0
+      },
+      {
+        "date": "2024-07-22",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 2730",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-07-04",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 2200",
+        "premium_usd": 240.0
+      }
+    ],
+    "total_premium": 360.0,
+    "margin": 3561.0,
+    "pnl": 480891.95999999996,
+    "result": "win"
+  },
+  {
+    "num": 53,
+    "commodity": null,
+    "expiry_month": "9월물U",
+    "entry_date": "2024-07-25",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-08-01",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 7250",
+        "premium_usd": 43.75
+      },
+      {
+        "date": "2024-07-25",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 7200",
+        "premium_usd": 37.5
+      }
+    ],
+    "total_premium": 81.25,
+    "margin": 3106.0,
+    "pnl": 279759.96,
+    "result": "win"
+  },
+  {
+    "num": 54,
+    "commodity": "크루드 오일",
+    "expiry_month": "10월물V",
+    "entry_date": "2024-08-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-08-01",
+        "month": "10월물V",
+        "type": "C 매도",
+        "strike": "10C 109.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-08-01",
+        "month": "10월물V",
+        "type": "P 매도",
+        "strike": "10P 56.5",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 200.0,
+    "margin": 1462.0,
+    "pnl": 145214.63999999998,
+    "result": "win"
+  },
+  {
+    "num": 55,
+    "commodity": "대두",
+    "expiry_month": "9월물U",
+    "entry_date": "2024-07-10",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-07-10",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 1300",
+        "premium_usd": 30.0
+      },
+      {
+        "date": "2024-07-22",
+        "month": "9월물U",
+        "type": "C 매도",
+        "strike": "9C 1200",
+        "premium_usd": 55.0
+      },
+      {
+        "date": "2024-07-23",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 960",
+        "premium_usd": 55.0
+      },
+      {
+        "date": "2024-07-22",
+        "month": "9월물U",
+        "type": "P 매도",
+        "strike": "9P 950",
+        "premium_usd": 65.0
+      }
+    ],
+    "total_premium": 85.0,
+    "margin": 598.0,
+    "pnl": 868543.92,
+    "result": "win"
+  },
+  {
+    "num": 56,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2024-11-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-01",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 88.0,
+    "margin": 0,
+    "pnl": 165327.83999999994,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 57,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2024-11-07",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-07",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 31.0,
+    "margin": 0,
+    "pnl": 58454.82,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 58,
+    "commodity": "대두",
+    "expiry_month": "1월물",
+    "entry_date": "2024-11-13",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-13",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-11-13",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-11-13",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-11-13",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 54.0,
+    "margin": 0,
+    "pnl": 101338.56,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 59,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2024-11-18",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-18",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-11-18",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 18.0,
+    "margin": 0,
+    "pnl": 34019.280000000006,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 60,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2024-11-24",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-24",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-11-24",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 85.0,
+    "margin": 0,
+    "pnl": 158534.63999999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 61,
+    "commodity": "대두",
+    "expiry_month": "1월물",
+    "entry_date": "2024-11-29",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-29",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-11-29",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 42.0,
+    "margin": 0,
+    "pnl": 79267.31999999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 62,
+    "commodity": "크루드 오일",
+    "expiry_month": "2월물",
+    "entry_date": "2024-12-05",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-05",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 33.0,
+    "margin": 0,
+    "pnl": 62617.32,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 63,
+    "commodity": "크루드 오일",
+    "expiry_month": "2월물",
+    "entry_date": "2024-12-10",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-10",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-12-10",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 164.0,
+    "margin": 0,
+    "pnl": 306626.3999999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 64,
+    "commodity": "대두",
+    "expiry_month": "2월물",
+    "entry_date": "2024-12-16",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-16",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 52.0,
+    "margin": 0,
+    "pnl": 96996.24,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 65,
+    "commodity": "크루드 오일",
+    "expiry_month": "2월물",
+    "entry_date": "2024-12-22",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-22",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-12-22",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 182.0,
+    "margin": 0,
+    "pnl": 341098.56,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 66,
+    "commodity": "크루드 오일",
+    "expiry_month": "2월물",
+    "entry_date": "2024-12-27",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-27",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2024-12-27",
+        "month": "2월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 194.0,
+    "margin": 0,
+    "pnl": 363036.60000000003,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 67,
+    "commodity": "대두",
+    "expiry_month": "3월물",
+    "entry_date": "2025-01-02",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-01-02",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-01-02",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-01-02",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-01-02",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 41.0,
+    "margin": 0,
+    "pnl": 77442.47999999986,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 68,
+    "commodity": "크루드 오일",
+    "expiry_month": "3월물",
+    "entry_date": "2025-01-07",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-01-07",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-01-07",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 129.0,
+    "margin": 0,
+    "pnl": 242450.63999999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 69,
+    "commodity": "크루드 오일",
+    "expiry_month": "3월물",
+    "entry_date": "2025-01-13",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-01-13",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 34.0,
+    "margin": 0,
+    "pnl": 63989.27999999997,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 70,
+    "commodity": "대두",
+    "expiry_month": "3월물",
+    "entry_date": "2025-01-18",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-01-18",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -32580.719999999972,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 71,
+    "commodity": "크루드 오일",
+    "expiry_month": "3월물",
+    "entry_date": "2025-01-24",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-01-24",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 990.0,
+    "margin": 0,
+    "pnl": 1857101.0399999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 72,
+    "commodity": "크루드 오일",
+    "expiry_month": "3월물",
+    "entry_date": "2025-01-30",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-01-30",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -516602.8799999999,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 73,
+    "commodity": "대두",
+    "expiry_month": "4월물",
+    "entry_date": "2025-02-04",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-02-04",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 83.0,
+    "margin": 0,
+    "pnl": 155204.63999999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 74,
+    "commodity": "크루드 오일",
+    "expiry_month": "4월물",
+    "entry_date": "2025-02-10",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-02-10",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 418.0,
+    "margin": 0,
+    "pnl": 783269.2799999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 75,
+    "commodity": "크루드 오일",
+    "expiry_month": "4월물",
+    "entry_date": "2025-02-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-02-15",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-02-15",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 92.0,
+    "margin": 0,
+    "pnl": 171961.20000000004,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 76,
+    "commodity": "대두",
+    "expiry_month": "4월물",
+    "entry_date": "2025-02-21",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-02-21",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-02-21",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -56543.400000000016,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 77,
+    "commodity": "크루드 오일",
+    "expiry_month": "4월물",
+    "entry_date": "2025-02-26",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-02-26",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-02-26",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 141.0,
+    "margin": 0,
+    "pnl": 263789.27999999997,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 78,
+    "commodity": "크루드 오일",
+    "expiry_month": "5월물",
+    "entry_date": "2025-03-04",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-03-04",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 460.0,
+    "margin": 0,
+    "pnl": 862083.7200000001,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 79,
+    "commodity": "대두",
+    "expiry_month": "5월물",
+    "entry_date": "2025-03-09",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-03-09",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-03-09",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 158.0,
+    "margin": 0,
+    "pnl": 296256.77999999997,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 80,
+    "commodity": "크루드 오일",
+    "expiry_month": "5월물",
+    "entry_date": "2025-03-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-03-15",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-03-15",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 212.0,
+    "margin": 0,
+    "pnl": 397029.24,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 81,
+    "commodity": "크루드 오일",
+    "expiry_month": "5월물",
+    "entry_date": "2025-03-21",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-03-21",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-03-21",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 199.0,
+    "margin": 0,
+    "pnl": 372373.92,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 82,
+    "commodity": "대두",
+    "expiry_month": "5월물",
+    "entry_date": "2025-03-26",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-03-26",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 16.0,
+    "margin": 0,
+    "pnl": 29383.919999999966,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 83,
+    "commodity": "크루드 오일",
+    "expiry_month": "6월물",
+    "entry_date": "2025-04-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-04-01",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-04-01",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 152.0,
+    "margin": 0,
+    "pnl": 285207.8399999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 84,
+    "commodity": "크루드 오일",
+    "expiry_month": "6월물",
+    "entry_date": "2025-04-06",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-04-06",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-04-06",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 196.0,
+    "margin": 0,
+    "pnl": 367711.92,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 85,
+    "commodity": "대두",
+    "expiry_month": "6월물",
+    "entry_date": "2025-04-12",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-04-12",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-04-12",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 81.0,
+    "margin": 0,
+    "pnl": 151874.63999999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 86,
+    "commodity": "크루드 오일",
+    "expiry_month": "6월물",
+    "entry_date": "2025-04-17",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-04-17",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -511448.04000000004,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 87,
+    "commodity": "크루드 오일",
+    "expiry_month": "6월물",
+    "entry_date": "2025-04-23",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-04-23",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-04-23",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-04-23",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-04-23",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 50.0,
+    "margin": 0,
+    "pnl": 93279.96,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 88,
+    "commodity": "대두",
+    "expiry_month": "6월물",
+    "entry_date": "2025-04-29",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-04-29",
+        "month": "6월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 373.0,
+    "margin": 0,
+    "pnl": 699366.6000000001,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 89,
+    "commodity": "크루드 오일",
+    "expiry_month": "7월물",
+    "entry_date": "2025-05-04",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-05-04",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-05-04",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 69.0,
+    "margin": 0,
+    "pnl": 129756.77999999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 90,
+    "commodity": "크루드 오일",
+    "expiry_month": "7월물",
+    "entry_date": "2025-05-10",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-05-10",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-05-10",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-05-10",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-05-10",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 36.0,
+    "margin": 0,
+    "pnl": 67971.96,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 91,
+    "commodity": "대두",
+    "expiry_month": "7월물",
+    "entry_date": "2025-05-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-05-15",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -591301.44,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 92,
+    "commodity": "크루드 오일",
+    "expiry_month": "7월물",
+    "entry_date": "2025-05-21",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-05-21",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -670955.0400000002,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 93,
+    "commodity": "크루드 오일",
+    "expiry_month": "7월물",
+    "entry_date": "2025-05-26",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-05-26",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-05-26",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-05-26",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-05-26",
+        "month": "7월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 79.0,
+    "margin": 0,
+    "pnl": 147958.56,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 94,
+    "commodity": "대두",
+    "expiry_month": "8월물",
+    "entry_date": "2025-06-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-06-01",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 6.0,
+    "margin": 0,
+    "pnl": 12147.840000000006,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 95,
+    "commodity": "크루드 오일",
+    "expiry_month": "8월물",
+    "entry_date": "2025-06-06",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-06-06",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-06",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 76.0,
+    "margin": 0,
+    "pnl": 142244.27999999997,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 96,
+    "commodity": "크루드 오일",
+    "expiry_month": "8월물",
+    "entry_date": "2025-06-12",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-06-12",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-12",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-12",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-12",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -53146.80000000001,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 97,
+    "commodity": "대두",
+    "expiry_month": "8월물",
+    "entry_date": "2025-06-18",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-06-18",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-18",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-18",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-18",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 58.0,
+    "margin": 0,
+    "pnl": 107998.55999999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 98,
+    "commodity": "크루드 오일",
+    "expiry_month": "8월물",
+    "entry_date": "2025-06-23",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-06-23",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-23",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-23",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-06-23",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -90496.08,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 99,
+    "commodity": "크루드 오일",
+    "expiry_month": "8월물",
+    "entry_date": "2025-06-29",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-06-29",
+        "month": "8월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -1288576.8,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 100,
+    "commodity": "대두",
+    "expiry_month": "9월물",
+    "entry_date": "2025-07-04",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-07-04",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-07-04",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -282330.72,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 101,
+    "commodity": "크루드 오일",
+    "expiry_month": "9월물",
+    "entry_date": "2025-07-10",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-07-10",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-07-10",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -351541.43999999994,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 102,
+    "commodity": "크루드 오일",
+    "expiry_month": "9월물",
+    "entry_date": "2025-07-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-07-15",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -661118.22,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 103,
+    "commodity": "대두",
+    "expiry_month": "9월물",
+    "entry_date": "2025-07-21",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-07-21",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-07-21",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 6.0,
+    "margin": 0,
+    "pnl": 10709.28,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 104,
+    "commodity": "크루드 오일",
+    "expiry_month": "9월물",
+    "entry_date": "2025-07-27",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-07-27",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-07-27",
+        "month": "9월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 69.0,
+    "margin": 0,
+    "pnl": 129217.32,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 105,
+    "commodity": "크루드 오일",
+    "expiry_month": "10월물",
+    "entry_date": "2025-08-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-08-01",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -740565.36,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 106,
+    "commodity": "대두",
+    "expiry_month": "10월물",
+    "entry_date": "2025-08-07",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-08-07",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 269.0,
+    "margin": 0,
+    "pnl": 503549.28,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 107,
+    "commodity": "크루드 오일",
+    "expiry_month": "10월물",
+    "entry_date": "2025-08-12",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-08-12",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 276.0,
+    "margin": 0,
+    "pnl": 516869.28,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 108,
+    "commodity": "크루드 오일",
+    "expiry_month": "10월물",
+    "entry_date": "2025-08-18",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-08-18",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 340.0,
+    "margin": 0,
+    "pnl": 636749.2799999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 109,
+    "commodity": "대두",
+    "expiry_month": "10월물",
+    "entry_date": "2025-08-23",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-08-23",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-08-23",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-08-23",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-08-23",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 38.0,
+    "margin": 0,
+    "pnl": 71275.31999999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 110,
+    "commodity": "크루드 오일",
+    "expiry_month": "10월물",
+    "entry_date": "2025-08-29",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-08-29",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-08-29",
+        "month": "10월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 137.0,
+    "margin": 0,
+    "pnl": 257129.28,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 111,
+    "commodity": "크루드 오일",
+    "expiry_month": "11월물",
+    "entry_date": "2025-09-03",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-09-03",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 17.0,
+    "margin": 0,
+    "pnl": 32127.840000000044,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 112,
+    "commodity": "대두",
+    "expiry_month": "11월물",
+    "entry_date": "2025-09-09",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-09-09",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-09-09",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 205.0,
+    "margin": 0,
+    "pnl": 385001.27999999997,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 113,
+    "commodity": "크루드 오일",
+    "expiry_month": "11월물",
+    "entry_date": "2025-09-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-09-15",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 0.0,
+    "result": "zero",
+    "estimated": true
+  },
+  {
+    "num": 114,
+    "commodity": "크루드 오일",
+    "expiry_month": "11월물",
+    "entry_date": "2025-09-20",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-09-20",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-09-20",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-09-20",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-09-20",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 67.0,
+    "margin": 0,
+    "pnl": 125234.64,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 115,
+    "commodity": "대두",
+    "expiry_month": "11월물",
+    "entry_date": "2025-09-26",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-09-26",
+        "month": "11월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 42.0,
+    "margin": 0,
+    "pnl": 79267.31999999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 116,
+    "commodity": "크루드 오일",
+    "expiry_month": "12월물",
+    "entry_date": "2025-10-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-10-01",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-01",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 152.0,
+    "margin": 0,
+    "pnl": 285074.64,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 117,
+    "commodity": "크루드 오일",
+    "expiry_month": "12월물",
+    "entry_date": "2025-10-07",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-10-07",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-07",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 239.0,
+    "margin": 0,
+    "pnl": 448897.32,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 118,
+    "commodity": "대두",
+    "expiry_month": "12월물",
+    "entry_date": "2025-10-12",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-10-12",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-12",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-12",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-12",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0.0,
+    "margin": 0,
+    "pnl": 719.2800000000273,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 119,
+    "commodity": "크루드 오일",
+    "expiry_month": "12월물",
+    "entry_date": "2025-10-18",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-10-18",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-18",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-18",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-18",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 60.0,
+    "margin": 0,
+    "pnl": 111914.64,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 120,
+    "commodity": "크루드 오일",
+    "expiry_month": "12월물",
+    "entry_date": "2025-10-24",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-10-24",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-24",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": -216423.36,
+    "result": "loss",
+    "estimated": true
+  },
+  {
+    "num": 121,
+    "commodity": "대두",
+    "expiry_month": "12월물",
+    "entry_date": "2025-10-29",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-10-29",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-29",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-29",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-10-29",
+        "month": "12월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 81.0,
+    "margin": 0,
+    "pnl": 151874.64,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 122,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2025-11-04",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-11-04",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 364.0,
+    "margin": 0,
+    "pnl": 682063.9199999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 123,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2025-11-09",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-11-09",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 426.0,
+    "margin": 0,
+    "pnl": 797921.2799999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 124,
+    "commodity": "대두",
+    "expiry_month": "1월물",
+    "entry_date": "2025-11-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-11-15",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 313.0,
+    "margin": 0,
+    "pnl": 587451.96,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 125,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2025-11-20",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-11-20",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 95.0,
+    "margin": 0,
+    "pnl": 178514.63999999998,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 126,
+    "commodity": "크루드 오일",
+    "expiry_month": "1월물",
+    "entry_date": "2025-11-26",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2025-11-26",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-11-26",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-11-26",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2025-11-26",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 42.0,
+    "margin": 0,
+    "pnl": 79267.31999999999,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 127,
+    "commodity": "천연가스",
+    "expiry_month": "01월물",
+    "entry_date": "2024-10-10",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-10-21",
+        "month": "01월물",
+        "type": "C 매도",
+        "strike": "7",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-10-10",
+        "month": "01월물",
+        "type": "C 매도",
+        "strike": "7",
+        "premium_usd": 210.0
+      },
+      {
+        "date": "2024-11-15",
+        "month": "01월물",
+        "type": "P 매도",
+        "strike": "2.1",
+        "premium_usd": 110.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 175184.64,
+    "result": "win"
+  },
+  {
+    "num": 128,
+    "commodity": "크루드 오일",
+    "expiry_month": "01월물",
+    "entry_date": "2024-10-21",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-10-21",
+        "month": "01월물",
+        "type": "C 매도",
+        "strike": "116",
+        "premium_usd": 150.0
+      },
+      {
+        "date": "2024-11-06",
+        "month": "01월물",
+        "type": "C 매도",
+        "strike": "110",
+        "premium_usd": 150.0
+      },
+      {
+        "date": "2024-10-31",
+        "month": "01월물",
+        "type": "C 매도",
+        "strike": "107",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-11-12",
+        "month": "01월물",
+        "type": "P 매도",
+        "strike": "53.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-10-31",
+        "month": "01월물",
+        "type": "P 매도",
+        "strike": "49.5",
+        "premium_usd": 100.0
+      },
+      {
+        "date": "2024-10-21",
+        "month": "01월물",
+        "type": "P 매도",
+        "strike": "47",
+        "premium_usd": 130.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 961783.9199999999,
+    "result": "win"
+  },
+  {
+    "num": 129,
+    "commodity": "골드",
+    "expiry_month": "01월물",
+    "entry_date": "2024-11-05",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-11-05",
+        "month": "01월물",
+        "type": "C 매도",
+        "strike": "3250",
+        "premium_usd": 170.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 222457.31999999998,
+    "result": "win"
+  },
+  {
+    "num": 130,
+    "commodity": "밀",
+    "expiry_month": "01월물",
+    "entry_date": "2024-11-06",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-11-06",
+        "month": "01월물",
+        "type": "C 매도",
+        "strike": "730",
+        "premium_usd": 62.5
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 79267.31999999999,
+    "result": "win"
+  },
+  {
+    "num": 131,
+    "commodity": "대두",
+    "expiry_month": "1월물",
+    "entry_date": "2024-11-12",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-12",
+        "month": "1월물",
+        "type": "C 매도",
+        "strike": "1150",
+        "premium_usd": 56.5
+      },
+      {
+        "date": "2024-11-12",
+        "month": "1월물",
+        "type": "P 매도",
+        "strike": "870",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 71275.31999999999,
+    "result": "win"
+  },
+  {
+    "num": 132,
+    "commodity": "크루드 오일",
+    "expiry_month": "02월물",
+    "entry_date": "2024-11-15",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-11-15",
+        "month": "02월물",
+        "type": "C 매도",
+        "strike": "110",
+        "premium_usd": 130.0
+      },
+      {
+        "date": "2024-11-15",
+        "month": "02월물",
+        "type": "P 매도",
+        "strike": "48",
+        "premium_usd": 130.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 338354.64,
+    "result": "win"
+  },
+  {
+    "num": 133,
+    "commodity": "크루드 오일",
+    "expiry_month": "03월물",
+    "entry_date": "2024-12-13",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-13",
+        "month": "03월물",
+        "type": "C 매도",
+        "strike": "105.5",
+        "premium_usd": 160.0
+      },
+      {
+        "date": "2024-12-17",
+        "month": "03월물",
+        "type": "P 매도",
+        "strike": "50",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2025-01-06",
+        "month": "03월물",
+        "type": "C 매도",
+        "strike": "96",
+        "premium_usd": 110.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 519480.0,
+    "result": "win"
+  },
+  {
+    "num": 134,
+    "commodity": "천연가스",
+    "expiry_month": "02월물",
+    "entry_date": "2024-12-13",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-13",
+        "month": "02월물",
+        "type": "P 매도",
+        "strike": "2.25",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2024-12-27",
+        "month": "02월물",
+        "type": "C 매도",
+        "strike": "7.5",
+        "premium_usd": 140.0
+      },
+      {
+        "date": "2025-01-02",
+        "month": "02월물",
+        "type": "C 매도",
+        "strike": "7",
+        "premium_usd": 110.0
+      },
+      {
+        "date": "2025-01-06",
+        "month": "02월물",
+        "type": "C 매도",
+        "strike": "6",
+        "premium_usd": 260.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 263789.27999999985,
+    "result": "win"
+  },
+  {
+    "num": 135,
+    "commodity": "골드",
+    "expiry_month": "03월물",
+    "entry_date": "2024-12-17",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-12-17",
+        "month": "03월물",
+        "type": "C 매도",
+        "strike": "3250",
+        "premium_usd": 140.0
+      },
+      {
+        "date": "2024-12-20",
+        "month": "03월물",
+        "type": "C 매도",
+        "strike": "3300",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 332999.99999999994,
+    "result": "win"
+  },
+  {
+    "num": 136,
+    "commodity": "밀",
+    "expiry_month": "03월물",
+    "entry_date": "2024-12-18",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2024-12-18",
+        "month": "03월물",
+        "type": "C 매도",
+        "strike": "720",
+        "premium_usd": 125.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 166500.0,
+    "result": "win"
+  },
+  {
+    "num": 137,
+    "commodity": "크루드 오일",
+    "expiry_month": "04월물J",
+    "entry_date": "2024-12-20",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2024-12-20",
+        "month": "04월물J",
+        "type": "P 매도",
+        "strike": "4P 41.5",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2024-12-20",
+        "month": "04월물J",
+        "type": "P 매도",
+        "strike": "4P 60.5",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2025-02-05",
+        "month": "04월물J",
+        "type": "C 매도",
+        "strike": "4C 82",
+        "premium_usd": 90.0
+      },
+      {
+        "date": "2025-02-05",
+        "month": "04월물J",
+        "type": "C 매도",
+        "strike": "4C 89",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 516869.28,
+    "result": "win"
+  },
+  {
+    "num": 138,
+    "commodity": "천연가스",
+    "expiry_month": "03월물",
+    "entry_date": "2025-01-06",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2025-01-06",
+        "month": "03월물",
+        "type": "C 매도",
+        "strike": "6",
+        "premium_usd": 120.0
+      },
+      {
+        "date": "2025-02-06",
+        "month": "03월물",
+        "type": "C 매도",
+        "strike": "4.8",
+        "premium_usd": 100.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 159840.0,
+    "result": "win"
+  },
+  {
+    "num": 139,
+    "commodity": "호주달러",
+    "expiry_month": "3월물",
+    "entry_date": "2025-02-05",
+    "strategy_type": "네이키드 콜 매도",
+    "legs": [
+      {
+        "date": "2025-02-05",
+        "month": "3월물",
+        "type": "C 매도",
+        "strike": "0.65500000000000003",
+        "premium_usd": 50.0
+      }
+    ],
+    "total_premium": 0,
+    "margin": 0,
+    "pnl": 66600.0,
+    "result": "win"
+  },
+  {
+    "num": 140,
+    "commodity": "크루드 오일",
+    "expiry_month": "4월물",
+    "entry_date": "2026-02-12",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2026-02-12",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 58.0,
+    "margin": 0,
+    "pnl": 108558.0,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 141,
+    "commodity": "천연가스",
+    "expiry_month": "4월물",
+    "entry_date": "2026-02-17",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2026-02-17",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2026-02-17",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2026-02-17",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      },
+      {
+        "date": "2026-02-17",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 33.0,
+    "margin": 0,
+    "pnl": 62437.5,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 142,
+    "commodity": "호주달러",
+    "expiry_month": "4월물",
+    "entry_date": "2026-02-23",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2026-02-23",
+        "month": "4월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 276.0,
+    "margin": 0,
+    "pnl": 516869.28,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 143,
+    "commodity": "크루드 오일",
+    "expiry_month": "5월물",
+    "entry_date": "2026-03-01",
+    "strategy_type": "양매도",
+    "legs": [
+      {
+        "date": "2026-03-01",
+        "month": "5월물",
+        "type": "C 매도",
+        "strike": "추정",
+        "premium_usd": 0
+      }
+    ],
+    "total_premium": 53.0,
+    "margin": 0,
+    "pnl": 99900.0,
+    "result": "win",
+    "estimated": true
+  },
+  {
+    "num": 144,
+    "commodity": "크루드 오일",
+    "expiry_month": "5월물",
+    "entry_date": "2026-03-31",
+    "strategy_type": "변형 레이쇼 스프레드",
+    "legs": [
+      {
+        "date": "2026-03-31",
+        "month": "5월물",
+        "type": "C $220 매도",
+        "strike": "$220",
+        "premium_usd": 400
+      },
+      {
+        "date": "2026-03-31",
+        "month": "5월물",
+        "type": "C $140 매도",
+        "strike": "$140",
+        "premium_usd": 310
+      },
+      {
+        "date": "2026-03-31",
+        "month": "5월물",
+        "type": "C $135 매수",
+        "strike": "$135",
+        "premium_usd": -356
+      }
+    ],
+    "total_premium": 754,
+    "margin": 4700,
+    "pnl": 1131000,
+    "result": "win"
+  }
+]
